@@ -63,7 +63,7 @@ msgid "Add a new application"
 msgstr "添加新的应用"
 
 #: partials/modals/multisignatureModal.html:46
-msgid "Add group members by typing in their Shift address and pressing enter."
+msgid "Add group members by typing in their Sauco address and pressing enter."
 msgstr "通过输入好友的Lisk地址并按下回车键来添加小组成员"
 
 #: partials/modals/secondPassphraseModal.html:126
@@ -446,23 +446,23 @@ msgid "LAUNCH"
 msgstr "运行"
 
 #: wallet.html:20
-msgid "Shift - Blockchain Application Platform"
-msgstr "Shift - 区块链应用平台(Dapp平台)"
+msgid "Sauco - Blockchain Application Platform"
+msgstr "Sauco - 区块链应用平台(Dapp平台)"
 
 #: js/controllers/delegatesController.js:158
 #: js/controllers/votedDelegatesController.js:117
 #: js/controllers/walletPendingsController.js:43
 #: partials/modals/multisignatureModal.html:52
-msgid "Shift Address"
-msgstr "Shift 地址"
+msgid "Sauco Address"
+msgstr "Sauco 地址"
 
 #: partials/account.html:33
-msgid "Shift Client"
-msgstr "Shift 客户端"
+msgid "Sauco Client"
+msgstr "Sauco 客户端"
 
 #: partials/account.html:43
-msgid "Shift Client Outdated"
-msgstr "Shift 客户端已过期"
+msgid "Sauco Client Outdated"
+msgstr "Sauco 客户端已过期"
 
 #: js/controllers/dappController.js:7
 #: js/controllers/dappsCategoryController.js:7
@@ -968,17 +968,17 @@ msgstr "摘要"
 
 #: partials/modals/openDappModal.html:19
 msgid ""
-"The Shift apps platform currently does not provide any protection against any "
+"The Sauco apps platform currently does not provide any protection against any "
 "unauthorized system calls made from the running application. Therefore "
 "opening any untrusted applications is not yet advisable, and could "
 "potentially lead to loss of funds."
 msgstr ""
-"Shift App平台目前未对未经授权的系统调用进行限制，因此，我们不建议您运行任何未"
+"Sauco App平台目前未对未经授权的系统调用进行限制，因此，我们不建议您运行任何未"
 "经授信的应用程序，因为这样有可能会导致您的资金损失。"
 
 #: partials/modals/masterPassphraseModal.html:30
 msgid ""
-"The master passphrase is auto-generated upon first launching the Shift "
+"The master passphrase is auto-generated upon first launching the Sauco "
 "client. It can be found at the end of the config.json file. Therefore only "
 "node operators can install, launch or uninstall applications. Once "
 "applications are in a launched state, anyone is free to open and use them."
@@ -1010,7 +1010,7 @@ msgid ""
 "processed. The values M and N are specified in this walkthrough."
 "<br><br><b>Things you need to know for the multi-signature group setup:</"
 "b><br><br>• The number of group members (N).<br>• The number of needed "
-"confirmations (M).<br>• The addresses of the Shift accounts you want to add "
+"confirmations (M).<br>• The addresses of the Sauco accounts you want to add "
 "to the group."
 msgstr ""
 "该向导将指导您完成所需的步骤来创建一个多重签名组。第一步您需要先了解清楚什么"

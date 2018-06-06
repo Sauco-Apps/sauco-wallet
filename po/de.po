@@ -64,9 +64,9 @@ msgid "Add a new application"
 msgstr "Neue App hinzufügen"
 
 #: partials/modals/multisignatureModal.html:46
-msgid "Add group members by typing in their Shift address and pressing enter."
+msgid "Add group members by typing in their Sauco address and pressing enter."
 msgstr ""
-"Füge Gruppenmitglieder hinzu, indem du ihre Shift Adresse eingibst und Enter "
+"Füge Gruppenmitglieder hinzu, indem du ihre Sauco Adresse eingibst und Enter "
 "drückst."
 
 #: partials/modals/secondPassphraseModal.html:126
@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 "Um Delegate zu werden musst du dich registrieren. Wähle dazu einen Delegate "
 "Namen, welchen du benutzen kannst um deinen Delegate bekannt zu machen. "
-"Lediglich die Top 101 Delegates können die Shift Blockchain sichern. Alle "
+"Lediglich die Top 101 Delegates können die Sauco Blockchain sichern. Alle "
 "Netzwerkgebühren werden gleichermaßen zwischen den Top 101 Delegates "
 "aufgeteilt."
 
@@ -456,23 +456,23 @@ msgid "LAUNCH"
 msgstr "STARTEN"
 
 #: wallet.html:20
-msgid "Shift - Blockchain Application Platform"
-msgstr "Shift - Blockchain Applikations Plattform"
+msgid "Sauco - Blockchain Application Platform"
+msgstr "Sauco - Blockchain Applikations Plattform"
 
 #: js/controllers/delegatesController.js:158
 #: js/controllers/votedDelegatesController.js:117
 #: js/controllers/walletPendingsController.js:43
 #: partials/modals/multisignatureModal.html:52
-msgid "Shift Address"
-msgstr "Shift Adresse"
+msgid "Sauco Address"
+msgstr "Sauco Adresse"
 
 #: partials/account.html:33
-msgid "Shift Client"
-msgstr "Shift Client"
+msgid "Sauco Client"
+msgstr "Sauco Client"
 
 #: partials/account.html:43
-msgid "Shift Client Outdated"
-msgstr "Shift Client Veraltet"
+msgid "Sauco Client Outdated"
+msgstr "Sauco Client Veraltet"
 
 #: js/controllers/dappController.js:7
 #: js/controllers/dappsCategoryController.js:7
@@ -993,22 +993,22 @@ msgstr "Zusammenfassung"
 
 #: partials/modals/openDappModal.html:19
 msgid ""
-"The Shift apps platform currently does not provide any protection against any "
+"The Sauco apps platform currently does not provide any protection against any "
 "unauthorized system calls made from the running application. Therefore "
 "opening any untrusted applications is not yet advisable, and could "
 "potentially lead to loss of funds."
 msgstr ""
-"Die Shift app Plattform bietet aktuell keine Sicherungsmaßnahmen gegen "
+"Die Sauco app Plattform bietet aktuell keine Sicherungsmaßnahmen gegen "
 "unauthorisierte Systemaufrufe ausgehend von der laufenden Applikation an."
 
 #: partials/modals/masterPassphraseModal.html:30
 msgid ""
-"The master passphrase is auto-generated upon first launching the Shift "
+"The master passphrase is auto-generated upon first launching the Sauco "
 "client. It can be found at the end of the config.json file. Therefore only "
 "node operators can install, launch or uninstall applications. Once "
 "applications are in a launched state, anyone is free to open and use them."
 msgstr ""
-"Die Master Passphrase wurde beim ersten Start von Shift automatisch "
+"Die Master Passphrase wurde beim ersten Start von Sauco automatisch "
 "generiert. Du findest sie am Ende der config.json Datei. Sie verhindert das "
 "jeder Nutzer Apps installieren, starten und deinstallieren kann. Sobald eine "
 "App einmal gestartet wurde, kann sie jeder öffnen und benutzen."
@@ -1040,7 +1040,7 @@ msgid ""
 "processed. The values M and N are specified in this walkthrough."
 "<br><br><b>Things you need to know for the multi-signature group setup:</"
 "b><br><br>• The number of group members (N).<br>• The number of needed "
-"confirmations (M).<br>• The addresses of the Shift accounts you want to add "
+"confirmations (M).<br>• The addresses of the Sauco accounts you want to add "
 "to the group."
 msgstr ""
 "Diese Schritt für Schritt Anleitung führt dich durch die benötigten Schritte "
@@ -1053,7 +1053,7 @@ msgstr ""
 "verschickt. Die Werte für M und N werden in den nächsten Schritten bestimmt."
 "<br><br><b>Sachen die du über Multi-Signature Gruppen wissen musst:</"
 "b><br><br>• The Anzahl an Gruppen Mitgliedern (N).<br>• Die Anzahl der "
-"benötigten Bestätigungen (M).<br>• Die Adressen der Shift Accounts, die du zu "
+"benötigten Bestätigungen (M).<br>• Die Adressen der Sauco Accounts, die du zu "
 "deiner Multi-Signature Gruppe hinzufügen möchtest."
 
 #: js/controllers/blockchainController.js:43
@@ -1256,8 +1256,8 @@ msgstr "Deine 2. Passphrase"
 #~ msgid "Installed Dapps"
 #~ msgstr "Installierte Dapps"
 
-#~ msgid "Shift - Decentralized Application Platform"
-#~ msgstr "Shift - Die Dezentrale Applikations Plattform"
+#~ msgid "Sauco - Decentralized Application Platform"
+#~ msgstr "Sauco - Die Dezentrale Applikations Plattform"
 
 #~ msgid "SAUCO Amount"
 #~ msgstr "SAUCO Summe"

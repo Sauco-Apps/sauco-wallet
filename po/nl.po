@@ -62,8 +62,8 @@ msgid "Add a new application"
 msgstr "Nieuwe applicatie toevoegen"
 
 #: partials/modals/multisignatureModal.html:46
-msgid "Add group members by typing in their Shift address and pressing enter."
-msgstr "Voeg groepsleden toe door hun Shift adres in te geven en door op enter te drukken."
+msgid "Add group members by typing in their Sauco address and pressing enter."
+msgstr "Voeg groepsleden toe door hun Sauco adres in te geven en door op enter te drukken."
 
 #: partials/modals/secondPassphraseModal.html:126
 msgid "ADD SECOND PASSPHRASE"
@@ -434,23 +434,23 @@ msgid "LAUNCH"
 msgstr "STARTEN"
 
 #: wallet.html:20
-msgid "Shift - Blockchain Application Platform"
-msgstr "Shift - Blockchain Applicatie Platform"
+msgid "Sauco - Blockchain Application Platform"
+msgstr "Sauco - Blockchain Applicatie Platform"
 
 #: js/controllers/delegatesController.js:158
 #: js/controllers/votedDelegatesController.js:117
 #: js/controllers/walletPendingsController.js:43
 #: partials/modals/multisignatureModal.html:52
-msgid "Shift Address"
-msgstr "Shift Adres"
+msgid "Sauco Address"
+msgstr "Sauco Adres"
 
 #: partials/account.html:33
-msgid "Shift Client"
-msgstr "Shift Cliënt"
+msgid "Sauco Client"
+msgstr "Sauco Cliënt"
 
 #: partials/account.html:43
-msgid "Shift Client Outdated"
-msgstr "Shift Cliënt Verouderd"
+msgid "Sauco Client Outdated"
+msgstr "Sauco Cliënt Verouderd"
 
 #: js/controllers/dappController.js:7
 #: js/controllers/dappsCategoryController.js:7
@@ -927,12 +927,12 @@ msgid "Summary"
 msgstr "Samenvatting"
 
 #: partials/modals/openDappModal.html:19
-msgid "The Shift apps platform currently does not provide any protection against any unauthorized system calls made from the running application. Therefore opening any untrusted applications is not yet advisable, and could potentially lead to loss of funds."
-msgstr "Het Shift applicatie platform biedt momenteel nog geen ondersteuning tegen niet geauthorizeerde system calls van de lopende applicatie. Hierdoor adviseren wij om niet-vertrouwde applicaties niet te openen, deze kunnen leiden tot het verlies van uw balans."
+msgid "The Sauco apps platform currently does not provide any protection against any unauthorized system calls made from the running application. Therefore opening any untrusted applications is not yet advisable, and could potentially lead to loss of funds."
+msgstr "Het Sauco applicatie platform biedt momenteel nog geen ondersteuning tegen niet geauthorizeerde system calls van de lopende applicatie. Hierdoor adviseren wij om niet-vertrouwde applicaties niet te openen, deze kunnen leiden tot het verlies van uw balans."
 
 #: partials/modals/masterPassphraseModal.html:30
-msgid "The master passphrase is auto-generated upon first launching the Shift client. It can be found at the end of the config.json file. Therefore only node operators can install, launch or uninstall applications. Once applications are in a launched state, anyone is free to open and use them."
-msgstr "De master wachtwoordzin is automatisch gegenereerd bij het eerst opstarten van de Shift cliënt. Deze kan worden teruggevonden op het einde van het config.json bestand. Hierdoor kunnen enkel node operatoren een applicatie installeren, opstaren of verijwderen. Eens dat applicaties in hun draaiende staat zijn, is iedereen vrij om deze te openen en te gebruiken."
+msgid "The master passphrase is auto-generated upon first launching the Sauco client. It can be found at the end of the config.json file. Therefore only node operators can install, launch or uninstall applications. Once applications are in a launched state, anyone is free to open and use them."
+msgstr "De master wachtwoordzin is automatisch gegenereerd bij het eerst opstarten van de Sauco cliënt. Deze kan worden teruggevonden op het einde van het config.json bestand. Hierdoor kunnen enkel node operatoren een applicatie installeren, opstaren of verijwderen. Eens dat applicaties in hun draaiende staat zijn, is iedereen vrij om deze te openen en te gebruiken."
 
 #: partials/modals/newUser.html:68
 msgid "The passphrase entered doesn't match with the one generated before. Please go back and generate a new one."
@@ -943,8 +943,8 @@ msgid "The second passphrase entered doesn't match with the one generated before
 msgstr "De tweede wachtwoordzin komt niet overeen met diegene die eerder is gegenereerd. Ga alstublieft terug om een nieuwe te genereren."
 
 #: partials/modals/multisignatureModal.html:21
-msgid "This walkthrough will guide you through the necessary steps to create a multi-signature group. It's very important that you know what multi-signatures are, else you risk loosing your SAUCO balance.<br><br>A multi-signature group consists of N accounts, the one who created the group is the group owner. When the owner wants to make a transaction, M of N accounts within the group need to confirm it, otherwise the transaction will not be processed. The values M and N are specified in this walkthrough.<br><br><b>Things you need to know for the multi-signature group setup:</b><br><br>• The number of group members (N).<br>• The number of needed confirmations (M).<br>• The addresses of the Shift accounts you want to add to the group."
-msgstr "Deze walkthrough zal u gidsen door de nodige stappen om een multi-signature groep aan te maken. Het is zeer belangrijk dat u weet wat multi-signatures zijn, anders loopt u kans om uw gehele SAUCO balans te verliezen. <br><br>Een multi-signature groep bestaat uit N accounts, diegene die de groep heeft aangemaakt is meteen ook beheerder van de groep. Wanneer de eigenaar een transactie wil maken, moeten M van de N accounts binnen de groep deze bevestigen, anders wordt de transactie niet uitgevoerd. The waardes M en N worden gespecifieerd doorheen deze walkthrough.<br><br><b>Dingen die u moet weten voor de multi-signature groep op te zetten:</b><br><br>• Het aantal groepsleden (N).<br>• Het aantal benodigde bevestigingen (M).<br>• De adressen van de Shift profielen die u aan de groep wil toevoegen."
+msgid "This walkthrough will guide you through the necessary steps to create a multi-signature group. It's very important that you know what multi-signatures are, else you risk loosing your SAUCO balance.<br><br>A multi-signature group consists of N accounts, the one who created the group is the group owner. When the owner wants to make a transaction, M of N accounts within the group need to confirm it, otherwise the transaction will not be processed. The values M and N are specified in this walkthrough.<br><br><b>Things you need to know for the multi-signature group setup:</b><br><br>• The number of group members (N).<br>• The number of needed confirmations (M).<br>• The addresses of the Sauco accounts you want to add to the group."
+msgstr "Deze walkthrough zal u gidsen door de nodige stappen om een multi-signature groep aan te maken. Het is zeer belangrijk dat u weet wat multi-signatures zijn, anders loopt u kans om uw gehele SAUCO balans te verliezen. <br><br>Een multi-signature groep bestaat uit N accounts, diegene die de groep heeft aangemaakt is meteen ook beheerder van de groep. Wanneer de eigenaar een transactie wil maken, moeten M van de N accounts binnen de groep deze bevestigen, anders wordt de transactie niet uitgevoerd. The waardes M en N worden gespecifieerd doorheen deze walkthrough.<br><br><b>Dingen die u moet weten voor de multi-signature groep op te zetten:</b><br><br>• Het aantal groepsleden (N).<br>• Het aantal benodigde bevestigingen (M).<br>• De adressen van de Sauco profielen die u aan de groep wil toevoegen."
 
 #: js/controllers/blockchainController.js:43
 #: js/controllers/forgingController.js:116
@@ -1124,8 +1124,8 @@ msgstr "Uw Tweede Wachtwoordzin"
 #~ msgid "Installed Dapps"
 #~ msgstr "Geïnstalleerde Dapps"
 
-#~ msgid "Shift - Decentralized Application Platform"
-#~ msgstr "Shift - Gedecentraliseerde Applicaties Platform"
+#~ msgid "Sauco - Decentralized Application Platform"
+#~ msgstr "Sauco - Gedecentraliseerde Applicaties Platform"
 
 #~ msgid "SAUCO Amount"
 #~ msgstr "Aantal SAUCO"
