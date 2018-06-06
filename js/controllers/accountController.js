@@ -114,7 +114,7 @@ angular.module('liskApp').controller('accountController', ['$state','$scope', '$
     }
 
     $scope.getCandles = function () {
-        $http.get("https://explorer.shiftnrg.org/api/candles/getCandles").then(function (response) {
+        $http.get("https://explorer.sauco.io/api/candles/getCandles").then(function (response) {
 			if (typeof response.data.candles == 'undefined') return false;
             $scope.graphs.saucoPrice.data = [
                 response.data.candles.map(
