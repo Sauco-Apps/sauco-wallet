@@ -25,7 +25,7 @@
                                 <button class="btn-flat btn-copy blue-link" clipboard data-clipboard-target="#accountPublicKey" clipboard-success="clipboardSuccess(e);" clipboard-error="clipboardCommand(e);"><i class="small material-icons">assignment</i><translate>Copy Public Key</translate></button>
                             </li>
                             <li>
-                                <button class="btn-flat btn-copy blue-link" ng-click="sendTransactionToUser()"><i class="mdi-content-send"></i><translate>Send SHIFT</translate></button>
+                                <button class="btn-flat btn-copy blue-link" ng-click="sendTransactionToUser()"><i class="mdi-content-send"></i><translate>Send SAUCO</translate></button>
                             </li>
                         </ul>
                     </div>
@@ -34,7 +34,7 @@
                             <ul class="list-group">
                                 <li class="list-group-item summary"><translate>Summary</translate></li>
                                 <li class="list-group-item bordered"><translate>Total Balance</translate>
-                                    <span class="pull-right small-text">{{account.unconfirmedBalance | liskFilter }} SHIFT</span>
+                                    <span class="pull-right small-text">{{account.unconfirmedBalance | liskFilter }} SAUCO</span>
                                 </li>
                                 <li class="list-group-item"><translate>BTC Equivalent</translate>
                                     <span class="pull-right small-text">{{convertToCUR(account.unconfirmedBalance, 'btc') || 0 | number: 2}}</span>
@@ -66,10 +66,10 @@
                                         <span class="pull-right small-text">{{transaction.confirmations}}</span>
                                     </li>
                                     <li class="list-group-item"><translate>Amount</translate>
-                                        <span class="pull-right small-text">{{transaction.amount / 100000000}} SHIFT</span>
+                                        <span class="pull-right small-text">{{transaction.amount / 100000000}} SAUCO</span>
                                     </li>
                                     <li class="list-group-item bordered"><translate>Fee</translate>
-                                        <span class="pull-right small-text">{{transaction.fee / 100000000}} SHIFT</span>
+                                        <span class="pull-right small-text">{{transaction.fee / 100000000}} SAUCO</span>
                                     </li>
                                     <li class="list-group-item"><translate>USD Equivalent</translate>
                                         <span class="pull-right small-text">${{convertToUSD(transaction.amount) || 0 | number: 2}}</span>
@@ -87,18 +87,18 @@
                                         <div class="transaction-path">
                                             <div class="transaction-part pull-left">
                                                 <a href="#" class="blue-link" ng-click="getAccountDetail(transaction.senderId)">{{transaction.senderId}}</a>
-                                                <span class="lisk">{{transaction.amount | liskFilter}} SHIFT</span>
+                                                <span class="lisk">{{transaction.amount | liskFilter}} SAUCO</span>
                                             </div>
                                             <div class="transaction-direction"></div>
                                             <div class="transaction-part pull-right">
                                                 <a href="#" class="blue-link" ng-click="getAccountDetail(transaction.recipientId)">{{transaction.recipientId
                                                 || ""}}</a>
-                                                <span class="lisk">{{transaction.amount | liskFilter}} SHIFT</span>
+                                                <span class="lisk">{{transaction.amount | liskFilter}} SAUCO</span>
                                             </div>
                                         </div>
                                         <div class="transaction-bottom">
-                                            <div class="fee"><translate>FEE</translate>: {{transaction.fee | liskFilter}} SHIFT</div>
-                                            <div class="lisk">{{transaction.amount | liskFilter}} SHIFT</div>
+                                            <div class="fee"><translate>FEE</translate>: {{transaction.fee | liskFilter}} SAUCO</div>
+                                            <div class="lisk">{{transaction.amount | liskFilter}} SAUCO</div>
                                             <div class="confirmations">{{transaction.confirmations || 0 }} <translate>CONFIRMATIONS</translate></div>
                                         </div>
                                     </li>

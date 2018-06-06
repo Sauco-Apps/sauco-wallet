@@ -146,7 +146,7 @@ angular.module('liskApp').controller('delegatesController', ['$scope', '$rootSco
 
     $scope.tableSearchDelegates.cols = {
         username : gettextCatalog.getString('Name'),
-        address : gettextCatalog.getString('Shift Address'),
+        address : gettextCatalog.getString('Sauco Address'),
     };
 
     $scope.updateSearch = function (search) {
@@ -188,7 +188,7 @@ angular.module('liskApp').controller('delegatesController', ['$scope', '$rootSco
     $scope.tableTopDelegates.cols = {
         rate : gettextCatalog.getString('Rank'),
         username : gettextCatalog.getString('Name'),
-        address : gettextCatalog.getString('Shift Address'),
+        address : gettextCatalog.getString('Sauco Address'),
         productivity : gettextCatalog.getString('Uptime'),
         vote : gettextCatalog.getString('Approval')
     };

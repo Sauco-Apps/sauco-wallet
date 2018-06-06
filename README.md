@@ -1,8 +1,8 @@
-# Shift UI
+# Sauco UI
 
-Shift is a next generation crypto-currency and blockchain application platform, written entirely in JavaScript. For more information please refer to our website: https://shiftnrg.org/.
+Sauco is a next generation crypto-currency and blockchain application platform, written entirely in JavaScript. For more information please refer to our website: https://shiftnrg.org/.
 
-This repository contains the [AngularJS](https://angularjs.org/) based user-interface submodule of the Shift client.
+This repository contains the [AngularJS](https://angularjs.org/) based user-interface submodule of the Sauco client.
 
 ## Installation
 
@@ -41,7 +41,7 @@ You can set the following cookies (e.g. using [EditThisCookies](http://www.editt
 
 The MIT License (MIT)  
 
-Copyright (c) 2017 Shift  
+Copyright (c) 2017 Sauco  
 Copyright (c) 2016 Lisk  
 Copyright (c) 2014-2015 Crypti  
 
