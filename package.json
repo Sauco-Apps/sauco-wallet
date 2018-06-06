@@ -1,10 +1,10 @@
 {
   "name": "sauco-ui",
   "version": "6.6.1",
-  "description": "Sauco user-interface submodule",
+  "description": "Shift user-interface submodule",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Sauco-Apps/sauco-wallet.git"
+    "url": "git@github.com:Shift-Apps/sauco-wallet.git"
   },
   "private": true,
   "author": "Vera Nekrasova <vera.limita@gmail.com>, Boris Povod <boris@crypti.me>",
@@ -50,6 +50,6 @@
     "requests": "0.1.7",
     "socket.io": "=1.4.8",
     "buffer": "=4.9.1",
-    "sauco-js": "https://github.com/Sauco-Apps/sauco-js/tarball/master"
+    "sauco-js": "https://github.com/Shift-Apps/sauco-js/tarball/master"
   }
 }

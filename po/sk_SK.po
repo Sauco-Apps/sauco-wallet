@@ -42,9 +42,9 @@ msgid "Account Verification"
 msgstr "Overenie Účtu"
 
 #: partials/modals/multisignatureModal.html:46
-msgid "Add group members by typing in their Sauco address and pressing enter."
+msgid "Add group members by typing in their Shift address and pressing enter."
 msgstr ""
-"Pridať členov skupiny zadaním ich adresy Sauco a stlačením tlačidla enter."
+"Pridať členov skupiny zadaním ich adresy Shift a stlačením tlačidla enter."
 
 #: js/controllers/blockchainController.js:45
 #: js/controllers/transactionsController.js:66
@@ -870,23 +870,23 @@ msgid "Settings"
 msgstr "Nastavenia"
 
 #: wallet.html:22
-msgid "Sauco - Blockchain Application Platform"
-msgstr "Sauco - Blockchain Aplikačná Platforma"
+msgid "Shift - Blockchain Application Platform"
+msgstr "Shift - Blockchain Aplikačná Platforma"
 
 #: js/controllers/delegatesController.js:158
 #: js/controllers/votedDelegatesController.js:117
 #: js/controllers/walletPendingsController.js:43
 #: partials/modals/multisignatureModal.html:52
-msgid "Sauco Address"
-msgstr "Sauco Adresa"
+msgid "Shift Address"
+msgstr "Shift Adresa"
 
 #: partials/account.html:33
-msgid "Sauco Client"
-msgstr "Sauco Klient"
+msgid "Shift Client"
+msgstr "Shift Klient"
 
 #: partials/account.html:43
-msgid "Sauco Client Outdated"
-msgstr "Sauco Klient je starý"
+msgid "Shift Client Outdated"
+msgstr "Shift Klient je starý"
 
 #: partials/blockchain.html:17 partials/forging.html:82
 #: partials/transactions.html:16
@@ -957,25 +957,25 @@ msgstr "Sumár"
 
 #: partials/modals/openDappModal.html:19
 msgid ""
-"The Sauco apps platform currently does not provide any protection against "
+"The Shift apps platform currently does not provide any protection against "
 "any unauthorized system calls made from the running application. Therefore "
 "opening any untrusted applications is not yet advisable, and could "
 "potentially lead to loss of funds."
 msgstr ""
-"Platforma aplikácie Sauco v súčasnosti neposkytuje žiadnu ochranu proti "
+"Platforma aplikácie Shift v súčasnosti neposkytuje žiadnu ochranu proti "
 "neoprávnenému volaniu systémových volaní vytvorené z bežiacej aplikácie. Z "
 "tohto dôvodu otvorenie nejakej nedôveryhodnej aplikácie nie je vhodné a môže "
 "potenciálne viesť k strate finančných prostriedkov."
 
 #: partials/modals/masterPassphraseModal.html:30
 msgid ""
-"The master passphrase is auto-generated upon first launching the Sauco "
+"The master passphrase is auto-generated upon first launching the Shift "
 "client. It can be found at the end of the config.json file. Therefore only "
 "node operators can install, launch or uninstall applications. Once "
 "applications are in a launched state, anyone is free to open and use them."
 msgstr ""
 "Hlavná fráza - heslo je automaticky generované pri prvom spustení klienta "
-"Sauco. To môžete nájsť na konci súbora config.json. Preto iba operátori "
+"Shift. To môžete nájsť na konci súbora config.json. Preto iba operátori "
 "uzlov môžu inštalovať, spúšťať či odinštalovať aplikácie. Potom, čo "
 "aplikácie sú  spustené, hocikto ich môže voľne používať."
 
@@ -1006,7 +1006,7 @@ msgid ""
 "processed. The values M and N are specified in this walkthrough."
 "<br><br><b>Things you need to know for the multi-signature group setup:</"
 "b><br><br>• The number of group members (N).<br>• The number of needed "
-"confirmations (M).<br>• The addresses of the Sauco accounts you want to add "
+"confirmations (M).<br>• The addresses of the Shift accounts you want to add "
 "to the group."
 msgstr ""
 "Tento návod Vás prevedie nevyhnutnými krokmi k vytvoreniu multi-podpisu "
@@ -1017,7 +1017,7 @@ msgstr ""
 "skupiny, je treba potvrdenia, inak nebudú transakcie spracované. Hodnoty M a "
 "N sú špecifikované v tomto návode.<br><br><b>Čo by ste mali vedieť o "
 "nastaveniach multi-podpisovej skupiny:</b><br><br>• Počet členov skupiny (N)."
-"<br>• Počet potrebných potvrdení (M).<br>• Adresy Sauco účtov ktoré chete "
+"<br>• Počet potrebných potvrdení (M).<br>• Adresy Shift účtov ktoré chete "
 "pridať do skupiny."
 
 #: js/controllers/blockchainController.js:43
