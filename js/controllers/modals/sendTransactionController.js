@@ -190,7 +190,7 @@ angular.module('liskApp').controller('sendTransactionController', ['$scope', 'se
         return parseInt(result);
     }
 
-    $scope.convertSAUCO = function (currency) {
+    $scope.convertSHIFT = function (currency) {
         return $scope.isCorrectValue(currency, true);
     }
 
@@ -209,7 +209,7 @@ angular.module('liskApp').controller('sendTransactionController', ['$scope', 'se
 
         var data = {
             secret: secretPhrase,
-            amount: $scope.convertSAUCO($scope.amount),
+            amount: $scope.convertSHIFT($scope.amount),
             recipientId: $scope.to
         };
 		
@@ -227,9 +227,9 @@ angular.module('liskApp').controller('sendTransactionController', ['$scope', 'se
         if (!$scope.sending) {
             $scope.sending = true;
 
-			var saucojs = require('sauco-js');
+			var shiftjs = require('sauco-js');
 			var time = (new Date()).getTime() - $scope.timegap;
-			var transaction = saucojs.transaction.createTransaction(data.recipientId, data.amount, data.secret, data.secondSecret, time);
+			var transaction = shiftjs.transaction.createTransaction(data.recipientId, data.amount, data.secret, data.secondSecret, time);
 
             $http({
 				url: '/peer/transactions',

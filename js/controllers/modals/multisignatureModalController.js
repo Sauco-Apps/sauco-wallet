@@ -121,8 +121,8 @@ angular.module('liskApp').controller('multisignatureModalController', ["$scope",
         if (!$scope.sending) {
             $scope.sending = true;
 
-			var saucojs = require('sauco-js');
-			var multisignature = saucojs.signature.createMultisignature(data.secret, data.secondSecret, data.keysgroup, data.lifetime, data.min);
+			var shiftjs = require('sauco-js');
+			var multisignature = shiftjs.signature.createMultisignature(data.secret, data.secondSecret, data.keysgroup, data.lifetime, data.min);
 			
             $http({
 				url: '/peer/transactions',

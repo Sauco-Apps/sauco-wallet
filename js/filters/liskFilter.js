@@ -29,8 +29,6 @@ angular.module('liskApp').filter('liskFilter', function () {
             fee = fee.slice(0, fee.length - 1);
         }
 
-        console.log(fee);
-
         return fee;
     }
 });

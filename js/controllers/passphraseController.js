@@ -42,8 +42,8 @@ angular.module('liskApp').controller('passphraseController', ['$scope', '$rootSc
         }
         $scope.errorMessage = "";
 		
-		var saucojs = require('sauco-js');
-		var accountKeys = saucojs.crypto.getKeys(pass);
+		var shiftjs = require('sauco-js');
+		var accountKeys = shiftjs.crypto.getKeys(pass);
 
 		$http.get('/api/accounts?publicKey='+accountKeys.publicKey).then(function (resp) {
 			if (resp.data.success){
@@ -62,7 +62,7 @@ angular.module('liskApp').controller('passphraseController', ['$scope', '$rootSc
 		}).finally(function(){
 			if ($scope.errorMessage === 'Account not found') {
 				$scope.errorMessage = '';
-				var accountAddress = saucojs.crypto.getAddress(accountKeys.publicKey);
+				var accountAddress = shiftjs.crypto.getAddress(accountKeys.publicKey);
 				
 				userService.setData(accountAddress, accountKeys.publicKey, 0, 0, 0);
 				userService.setForging(0);

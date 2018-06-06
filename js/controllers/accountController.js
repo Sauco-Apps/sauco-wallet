@@ -18,7 +18,7 @@ angular.module('liskApp').controller('accountController', ['$state','$scope', '$
     $scope.allVotes = 100 * 1000 * 1000 * 1000 * 1000 * 100;
 
     $scope.graphs = {
-        saucoPrice: {
+        shiftPrice: {
             labels: ['1', '2'],
             series: ['Series B'],
             data: [
@@ -114,9 +114,9 @@ angular.module('liskApp').controller('accountController', ['$state','$scope', '$
     }
 
     $scope.getCandles = function () {
-        $http.get("https://explorer.sauco.io/api/candles/getCandles").then(function (response) {
+        $http.get("https://explorer.shiftnrg.org/api/candles/getCandles").then(function (response) {
 			if (typeof response.data.candles == 'undefined') return false;
-            $scope.graphs.saucoPrice.data = [
+            $scope.graphs.shiftPrice.data = [
                 response.data.candles.map(
                     function (candle) {
                         return candle.close;

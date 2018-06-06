@@ -31,7 +31,7 @@ angular.module('liskApp').controller('secondPassphraseModalController', ["$scope
 
     $scope.savePassToFile = function (pass) {
         var blob = new Blob([pass], { type: "text/plain;charset=utf-8" });
-        FS.saveAs(blob, "SaucoSecondPassphrase.txt");
+        FS.saveAs(blob, "ShiftSecondPassphrase.txt");
     }
 
     $scope.confirmNewPassphrase = function () {
@@ -63,8 +63,8 @@ angular.module('liskApp').controller('secondPassphraseModalController', ["$scope
         if (!$scope.sending) {
             $scope.sending = true;
 
-			var saucojs = require('sauco-js');
-			var signature = saucojs.signature.createSignature(pass, $scope.newPassphrase);
+			var shiftjs = require('sauco-js');
+			var signature = shiftjs.signature.createSignature(pass, $scope.newPassphrase);
 			
             $http({
 				url: '/peer/transactions',

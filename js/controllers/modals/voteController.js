@@ -83,8 +83,8 @@ angular.module('liskApp').controller('voteController', ["$scope", "voteModal", "
         if (!$scope.sending) {
             $scope.sending = true;
 			
-			var saucojs = require('sauco-js');
-			var vote = saucojs.vote.createVote(data.secret, data.delegates, data.secondSecret)
+			var shiftjs = require('sauco-js');
+			var vote = shiftjs.vote.createVote(data.secret, data.delegates, data.secondSecret)
 			
             $http({
 				url: '/peer/transactions',

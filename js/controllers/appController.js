@@ -8,7 +8,7 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
     $scope.searchBlocks = blockService;
     $scope.toggled = false;
     $scope.rememberedPassphrase = userService.rememberPassphrase ? userService.rememberedPassphrase : false;
-    $scope.sauco_usd = $scope.sauco_btc = $scope.sauco_eur = 0;
+    $scope.shift_usd = $scope.shift_btc = $scope.shift_eur = 0;
     $scope.version = 'version load';
     $scope.diffVersion = 0;
 	$scope.port = window.location.port || window.location.protocol.indexOf('https') != -1 ? 443 : 80;
@@ -114,20 +114,13 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
     ];
 
     $scope.getPriceTicker = function () {
-        //Cambiar cuando alla exchange
-        /*$http.get("https://explorer.sauconrg.org/api/getPriceTicker")
+        $http.get("https://explorer.shiftnrg.org/api/getPriceTicker")
             .then(function (response) {
                 $scope.btc_usd = response.data.tickers.BTC.USD;
-                $scope.sauco_btc = response.data.tickers.SAUCO.BTC;
-                $scope.sauco_usd = response.data.tickers.SAUCO.USD;
-                $scope.sauco_eur = response.data.tickers.SAUCO.EUR; 
-            });*/
-        
-        $scope.btc_usd = 0;
-        $scope.sauco_btc = 0;
-        $scope.sauco_usd = 0;
-        $scope.sauco_eur = 0; 
-        
+                $scope.shift_btc = response.data.tickers.SAUCO.BTC;
+                $scope.shift_usd = response.data.tickers.SAUCO.USD;
+                $scope.shift_eur = response.data.tickers.SAUCO.EUR; 
+            });
     };
 
     $scope.getVersion = function () {
