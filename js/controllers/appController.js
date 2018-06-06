@@ -150,8 +150,8 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
         });
     };
 
-    $scope.convertToCUR = function (sauco, cur) {
-        return (sauco / 100000000) * $scope['sauco_' + (cur || 'usd')];
+    $scope.convertToCUR = function (shift, cur) {
+        return (shift / 100000000) * $scope['shift_' + (cur || 'usd')];
     };
 
     $scope.clearSearch = function () {

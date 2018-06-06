@@ -34,10 +34,10 @@ angular.module('liskApp').controller('newUserController', ["$scope", "$http", "n
         if (!Mnemonic.isValid(pass) || ($scope.newPassphrase !== pass)) {
             $scope.noMatch = true;
         } else {
-			var shiftjs = require('sauco-js');
-			var accountKeys = shiftjs.crypto.getKeys(pass);
+			var saucojs = require('sauco-js');
+			var accountKeys = saucojs.crypto.getKeys(pass);
 			if (accountKeys.publicKey) {
-				var accountAddress = shiftjs.crypto.getAddress(accountKeys.publicKey);
+				var accountAddress = saucojs.crypto.getAddress(accountKeys.publicKey);
 				
 				newUser.deactivate();
 				userService.setData(accountAddress, accountKeys.publicKey, 0, 0, 0);

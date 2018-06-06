@@ -227,9 +227,9 @@ angular.module('liskApp').controller('sendTransactionController', ['$scope', 'se
         if (!$scope.sending) {
             $scope.sending = true;
 
-			var shiftjs = require('sauco-js');
+			var saucojs = require('sauco-js');
 			var time = (new Date()).getTime() - $scope.timegap;
-			var transaction = shiftjs.transaction.createTransaction(data.recipientId, data.amount, data.secret, data.secondSecret, time);
+			var transaction = saucojs.transaction.createTransaction(data.recipientId, data.amount, data.secret, data.secondSecret, time);
 
             $http({
 				url: '/peer/transactions',

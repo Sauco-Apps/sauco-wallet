@@ -86,8 +86,8 @@ angular.module('liskApp').controller('addDappModalController', ["$scope", "$http
         if (!$scope.sending) {
             $scope.view.inLoading = $scope.sending = true;
 
-			var shiftjs = require('sauco-js');
-			var registration = shiftjs.dapp.createDapp(data.secret, data.secondSecret, {
+			var saucojs = require('sauco-js');
+			var registration = saucojs.dapp.createDapp(data.secret, data.secondSecret, {
 				category: data.category,
 				name: data.name,
 				description: data.description,

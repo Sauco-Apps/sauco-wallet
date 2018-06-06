@@ -104,8 +104,8 @@ angular.module('liskApp').controller('registrationDelegateModalController', ["$s
         if (!$scope.sending) {
             $scope.sending = true;
 			
-			var shiftjs = require('sauco-js');
-			var registration = shiftjs.delegate.createDelegate(data.secret, data.username, data.secondSecret);
+			var saucojs = require('sauco-js');
+			var registration = saucojs.delegate.createDelegate(data.secret, data.username, data.secondSecret);
 			
             $http({
 				url: '/peer/transactions',

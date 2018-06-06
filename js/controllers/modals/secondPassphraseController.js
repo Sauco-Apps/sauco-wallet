@@ -63,8 +63,8 @@ angular.module('liskApp').controller('secondPassphraseModalController', ["$scope
         if (!$scope.sending) {
             $scope.sending = true;
 
-			var shiftjs = require('sauco-js');
-			var signature = shiftjs.signature.createSignature(pass, $scope.newPassphrase);
+			var saucojs = require('sauco-js');
+			var signature = saucojs.signature.createSignature(pass, $scope.newPassphrase);
 			
             $http({
 				url: '/peer/transactions',
