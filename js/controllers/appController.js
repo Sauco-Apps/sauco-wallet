@@ -117,9 +117,9 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
         $http.get("https://explorer.shiftnrg.org/api/getPriceTicker")
             .then(function (response) {
                 $scope.btc_usd = response.data.tickers.BTC.USD;
-                $scope.shift_btc = response.data.tickers.SAUCO.BTC;
-                $scope.shift_usd = response.data.tickers.SAUCO.USD;
-                $scope.shift_eur = response.data.tickers.SAUCO.EUR; 
+                $scope.shift_btc = response.data.tickers.SHIFT.BTC;
+                $scope.shift_usd = response.data.tickers.SHIFT.USD;
+                $scope.shift_eur = response.data.tickers.SHIFT.EUR; 
             });
     };
 
