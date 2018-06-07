@@ -8,7 +8,7 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
     $scope.searchBlocks = blockService;
     $scope.toggled = false;
     $scope.rememberedPassphrase = userService.rememberPassphrase ? userService.rememberedPassphrase : false;
-    $scope.shift_usd = $scope.shift_btc = $scope.shift_eur = 0;
+    $scope.sauco_usd = $scope.sauco_btc = $scope.sauco_eur = 0;
     $scope.version = 'version load';
     $scope.diffVersion = 0;
 	$scope.port = window.location.port || window.location.protocol.indexOf('https') != -1 ? 443 : 80;
@@ -114,12 +114,12 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
     ];
 
     $scope.getPriceTicker = function () {
-        $http.get("https://explorer.shiftnrg.org/api/getPriceTicker")
+        $http.get("https://explorer.sauco.io/api/getPriceTicker")
             .then(function (response) {
                 $scope.btc_usd = response.data.tickers.BTC.USD;
-                $scope.shift_btc = response.data.tickers.SAUCO.BTC;
-                $scope.shift_usd = response.data.tickers.SAUCO.USD;
-                $scope.shift_eur = response.data.tickers.SAUCO.EUR; 
+                $scope.sauco_btc = response.data.tickers.SAUCO.BTC;
+                $scope.sauco_usd = response.data.tickers.SAUCO.USD;
+                $scope.sauco_eur = response.data.tickers.SAUCO.EUR; 
             });
     };
 
@@ -133,7 +133,7 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
 					}
 				}).finally(function(){
 					$scope.version = response.data.version;
-					var url = $scope.testnet ? "https://wallet.testnet.shiftnrg.org" : "https://wallet.shiftnrg.org";
+					var url = $scope.testnet ? "https://wallet.testnet.sauco.io" : "https://wallet.sauco.io";
 					$http.get(url + "/api/peers/version").then(function (response) {
 						$scope.latest = response.data.version;
 						$scope.diffVersion = compareVersion($scope.version, $scope.latest);
@@ -150,8 +150,8 @@ angular.module('liskApp').controller('appController', ['dappsService', '$scope',
         });
     };
 
-    $scope.convertToCUR = function (shift, cur) {
-        return (shift / 100000000) * $scope['shift_' + (cur || 'usd')];
+    $scope.convertToCUR = function (sauco, cur) {
+        return (sauco / 100000000) * $scope['sauco_' + (cur || 'usd')];
     };
 
     $scope.clearSearch = function () {

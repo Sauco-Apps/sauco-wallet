@@ -19,10 +19,10 @@
                     <div class="modal-nav" ng-if="account.address != address">
                         <ul class="nav nav-justified nav-actions" ng-if="account.address">
                             <li>
-                                <button class="btn-flat btn-copy blue-link" clipboard data-clipboard-target="#accountAddress" clipboard-success="clipboardSuccess(e);" clipboard-error="clipboardCommand(e);"><translate>Copy Address</translate></button>
+                                <button class="btn-flat btn-copy blue-link" clipboard data-clipboard-target="#accountAddress" clipboard-success="clipboardSuccess(e);" clipboard-error="clipboardCommand(e);"><i class="small material-icons">assignment</i><translate>Copy Address</translate></button>
                             </li>
                             <li>
-                                <button class="btn-flat btn-copy blue-link" clipboard data-clipboard-target="#accountPublicKey" clipboard-success="clipboardSuccess(e);" clipboard-error="clipboardCommand(e);"><translate>Copy Public Key</translate></button>
+                                <button class="btn-flat btn-copy blue-link" clipboard data-clipboard-target="#accountPublicKey" clipboard-success="clipboardSuccess(e);" clipboard-error="clipboardCommand(e);"><i class="small material-icons">assignment</i><translate>Copy Public Key</translate></button>
                             </li>
                             <li>
                                 <button class="btn-flat btn-copy blue-link" ng-click="sendTransactionToUser()"><i class="mdi-content-send"></i><translate>Send SAUCO</translate></button>
@@ -58,7 +58,7 @@
                                 <h2>{{'Transaction ID'|translate}}:</h2>
 
                                 <input id="transactionId" class="clipboard" value="{{transaction.id}}" readonly>
-                                <button class="btn-flat btn-copy blue-link" clipboard data-clipboard-target="#transactionId" clipboard-success="clipboardSuccess(e);" clipboard-error="clipboardCommand(e);"><translate>Copy Transaction ID</translate></button>
+                                <button class="btn-flat btn-copy blue-link" clipboard data-clipboard-target="#transactionId" clipboard-success="clipboardSuccess(e);" clipboard-error="clipboardCommand(e);"><i class="small material-icons">assignment</i><translate>Copy Transaction ID</translate></button>
                             </div>
                             <div class="modal-body">
                                 <ul class="list-group">
