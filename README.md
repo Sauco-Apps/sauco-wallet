@@ -1,8 +1,8 @@
-# Shift UI
+# Sauco Wallet
 
-Shift is a next generation crypto-currency and blockchain application platform, written entirely in JavaScript. For more information please refer to our website: https://shiftnrg.org/.
+Sauco is a next generation crypto-currency and blockchain application platform, written entirely in JavaScript. For more information please refer to our website: https://www.sauco.io
 
-This repository contains the [AngularJS](https://angularjs.org/) based user-interface submodule of the Shift client.
+This repository contains the [AngularJS](https://angularjs.org/) based user-interface submodule of the Sauco client.
 
 ## Installation
 
@@ -26,11 +26,12 @@ npm run grunt-release
 
 You can set the following cookies (e.g. using [EditThisCookies](http://www.editthiscookie.com/)) for more comfortable local development:
 - `passphrase` - passphrase to sign you in  
-- `goto` - name of state to go to. See [possible state names](https://github.com/shiftnrg/shift-wallet/blob/dev/js/app.js#L25-L100).
+- `goto` - name of state to go to. See [possible state names](https://github.com/Sauco-Apps/sauco-wallet/blob/dev/js/app.js#L25-L100).
 
 
 ## Authors
 
+- Sauco Team
 - Ralf S <ralfs@shiftnrg.org>
 - Vera Nekrasova <vera.limita@gmail.com>
 - Boris Povod <boris@crypti.me>
@@ -41,6 +42,7 @@ You can set the following cookies (e.g. using [EditThisCookies](http://www.editt
 
 The MIT License (MIT)  
 
+Copyright (c) 2018 Sauco 
 Copyright (c) 2017 Shift  
 Copyright (c) 2016 Lisk  
 Copyright (c) 2014-2015 Crypti  

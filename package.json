@@ -1,10 +1,10 @@
 {
-  "name": "shift-ui",
+  "name": "sauco-ui",
   "version": "6.6.1",
-  "description": "Shift user-interface submodule",
+  "description": "Sauco user-interface submodule",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ShiftNRG/shift-wallet.git"
+    "url": "git@github.com:Sauco-Apps/sauco-wallet.git"
   },
   "private": true,
   "author": "Vera Nekrasova <vera.limita@gmail.com>, Boris Povod <boris@crypti.me>",
